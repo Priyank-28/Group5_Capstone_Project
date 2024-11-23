@@ -1,0 +1,94 @@
+.vendorRegContainer{
+    background-image: url(../images/VendorReg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    height: 100vh;
+    position: relative;
+}
+.vendorRegContainer h1{
+    margin: 0 !important;
+    padding-bottom: 1rem;
+}
+.vendorRegContainer .vendorReg{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius:0 1rem 1rem 0;
+}
+.vendorRegContainer form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 450px;
+    font-size: 18px;
+    font-weight: 600; 
+}
+.vendorRegContainer .vendorInput{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     gap: 0.5rem;
+}
+.vendorRegContainer .vendorInput input{
+    border: none;
+    width: 100%;
+    padding: 0.8rem;
+    outline: none;
+}
+.vendorRegContainer .vendorInput input:focus{
+    border: none;
+    width: 100%;
+    padding: 0.8rem;
+    outline: none;
+}
+.vendorRegContainer .vendorButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.vendorRegContainer button{
+    width: 200px;
+}
+.vendorSuccessMsg{
+    background-color: rgba(0,0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.vendorSuccessMsg .vendorMsgContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vendorSuccessMsg .vendorMsgContent{
+    width: 500px;
+    height: 200px;
+    border-radius: 1rem;
+    background: linear-gradient(135deg, #86c5ad 30%, #5ca291 100%);
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+.vendorMsgContainer .vendorClose{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.vendorMsgContainer h3{
+    text-align: center;
+}

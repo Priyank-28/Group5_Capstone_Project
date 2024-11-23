@@ -1,0 +1,15 @@
+{
+  "name": "capstone-project",
+  "version": "1.0.0",
+  "description": "\"Steps to run this project\",",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"scripts\": {"
+  },
+  "repository": {
+    "type": "git",
+    "url": " \"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "author": "",
+  "license": "ISC"
+}

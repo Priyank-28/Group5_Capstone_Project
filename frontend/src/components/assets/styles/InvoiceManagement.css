@@ -1,0 +1,16 @@
+.invoice-management {
+    background-color: #ffffff; /* White background for invoice management */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px; /* Add margin for spacing */
+}
+
+.invoice-management h2 {
+    color: #333; /* Dark color for headings */
+}
+
+.invoice-management p {
+    font-size: 18px; /* Readable font size for paragraph text */
+    color: #666; /* Lighter color for paragraph text */
+}

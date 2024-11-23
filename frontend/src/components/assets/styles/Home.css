@@ -1,0 +1,143 @@
+.home-container {
+    display: flex;
+    background-color: #F5F5F5;
+    height: 100vh;
+    overflow-y: scroll;
+   
+}
+
+.main-content {
+    flex-grow: 1; 
+    /* padding: 20px; */
+    background-color: transparent; /* Change to transparent */
+}
+
+.dashboard-content {
+    background-color:transparent; /* White background for the dashboard area */
+    padding: 2rem;
+}
+
+h2 {
+    color: #333; /* Darker text for headings */
+}
+.DBContent-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.white-box{
+    width: 330px;
+    height: 100px;
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+            10px 10px 15px rgba(70,70,70,0.12);
+    background: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.white-box p{
+    font-size: 22px;
+    font-weight: 600;
+}
+.white-box:hover{
+    box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), 
+           inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+.whitebox-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* .white-box {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; 
+    cursor: pointer; 
+    transition: transform 0.2s; 
+}
+
+.white-box:hover {
+    transform: scale(1.02); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+} */
+
+/* Popup Styles */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.popup-content {
+    background-color: rgb(185, 239, 221); /* Set background to cyan */
+    color: white; /* Text color for contrast */
+    padding: 40px; /* Increased padding for more space */
+    border-radius: 12px; /* Rounded corners */
+    width: 600px; /* Increased width for dialog-like appearance */
+    height: 600px; /* Auto height for content */
+    max-height: 80%; /* Limit max height */
+    overflow-y: auto; /* Enable scrolling if content overflows */
+    text-align: center;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6); /* Add a more prominent shadow */
+    position: relative; /* Allow positioning of close button */
+}
+
+.close {
+    cursor: pointer;
+    position: absolute; /* Position close button */
+    top: 10px; /* Distance from the top */
+    right: 15px; /* Distance from the right */
+    font-size: 24px; /* Larger close button */
+    color: white; /* Change close button color to white for better visibility */
+}
+
+.popup-content h2 {
+    margin: 0 0 10px; /* Spacing for the title */
+    font-size: 22px; /* Adjust title font size */
+}
+
+.popup-content p {
+    font-size: 18px; /* Adjust content font size */
+}
+.redColor{
+    background-color: #f3495b;
+    color: #fff;
+}
+.yellowColor{
+    background-color: #ffc900;
+    color: #fff;
+}
+.blueColor{
+    background-color: #27c3fa;
+    color: #fff;
+}
+.vilotColor{
+    background-color: #Eb82fb;
+    color: #fff;
+}
+.redColor:hover{
+   color: #f3495b;
+    background-color: #fff;
+}
+.yellowColor:hover{
+    color: #ffc900;
+    background-color: #fff;
+}
+.blueColor:hover{
+    color: #27c3fa;
+    background-color: #fff;
+}
+.vilotColor:hover{
+    color: #Eb82fb;
+    background-color: #fff;
+}

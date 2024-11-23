@@ -1,0 +1,45 @@
+/* Popup Styles */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.popup-content {
+    background-color: transparent; /* Set background to transparent */
+    color: white; /* Text color for contrast */
+    padding: 20px; /* Padding inside the popup */
+    border-radius: 12px; /* Rounded corners */
+    width: 600px; /* Set fixed width */
+    height: 600px; /* Set fixed height */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6); /* Add a prominent shadow */
+    position: relative; /* Allow positioning of close button */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close {
+    cursor: pointer;
+    position: absolute; /* Position close button */
+    top: 10px; /* Distance from the top */
+    right: 15px; /* Distance from the right */
+    font-size: 24px; /* Larger close button */
+    color: white; /* Change close button color to white for better visibility */
+}
+
+.popup-content h2 {
+    margin: 0 0 10px; /* Spacing for the title */
+    font-size: 22px; /* Adjust title font size */
+}
+
+.popup-content p {
+    font-size: 18px; /* Adjust content font size */
+}

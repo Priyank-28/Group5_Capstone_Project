@@ -1,0 +1,58 @@
+/* Sidebar.css */
+.sidebar {
+    width: 250px; /* Width of the sidebar */
+    background-color: #fff; /* Background color */
+    padding: 0 20px; /* Padding inside the sidebar */
+    height: 100vh; /* Full height of the viewport */
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Optional shadow effect */
+    
+}
+.sidebar-image{
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.5rem;
+    font-size: 26px;
+    font-weight: 700;
+}
+.sidebar h2{
+    margin: 0px !important; 
+    padding-top: 1.5rem;  
+}
+.sidebar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.sidebar ul li{
+   color: #000;
+   font-weight: 600;
+   font-size: 16px;
+   padding: 0.5rem;
+    
+}
+.sidebar ul li:hover {
+    background: linear-gradient(135deg, #86c5ad 30%, #5ca291 100%); 
+    color: #fff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+.sidebar ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Text color */
+    display: block; /* Make the link fill the li */
+    padding: 10px; /* Padding around the link */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.sidebar ul li a:hover {
+    background-color: #ddd; /* Background on hover */
+    color: #000; /* Text color on hover */
+}

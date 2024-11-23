@@ -1,0 +1,183 @@
+/* General styling for the page */
+.invoice-management {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.button-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.primary-button, .secondary-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.primary-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.primary-button:hover {
+  background-color: #45a049;
+}
+
+.secondary-button {
+  background-color: #2196F3;
+  color: white;
+  margin-left: 10px;
+}
+
+.secondary-button:hover {
+  background-color: #1e88e5;
+}
+
+.message {
+  margin-top: 10px;
+  text-align: center;
+  color: green;
+}
+
+/* Table styling for the invoice list */
+.invoice-list {
+  margin-top: 30px;
+}
+
+.invoice-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.invoice-list th {
+  text-align: left;
+  padding: 12px;
+  background-color: #e9f7ef; /* Light green background for headings */
+  color: #333; /* Dark text for readability */
+  border: 1px solid #ddd;
+}
+
+.invoice-list td {
+  text-align: left;
+  padding: 12px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.invoice-list tr:nth-child(even) td {
+  background-color: #f1f1f1;
+}
+
+.invoice-list tr:hover td {
+  background-color: #f0f0f0;
+}
+
+/* Modal styling */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.modal-content form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.form-group input,
+.form-group select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Adjusting width for dropdowns */
+.form-group select {
+  width: 100%; /* Ensure dropdowns align with other input fields */
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.modal-content .close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.modal-content .close:hover {
+  color: #f44336;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .invoice-management {
+    padding: 15px;
+  }
+
+  .modal-content {
+    width: 90%;
+  }
+
+  .primary-button, .secondary-button {
+    font-size: 14px;
+  }
+}
